@@ -16,5 +16,10 @@ namespace WindowsFormsApp8
         {
             InitializeComponent();
         }
+
+        private void musteriEkleButton_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

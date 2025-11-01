@@ -52,5 +52,10 @@ namespace WindowsFormsApp8
                 mainForm.openChildForm(new Servis());
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

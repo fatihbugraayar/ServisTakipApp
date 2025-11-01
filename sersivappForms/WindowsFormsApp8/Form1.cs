@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
 
 namespace WindowsFormsApp8
 {
@@ -37,6 +38,11 @@ namespace WindowsFormsApp8
             mainPanel.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
+        }
+
+        private void mainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
